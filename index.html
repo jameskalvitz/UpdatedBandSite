@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+
+<html lan="eng">
+
+<head>
+
+	<title tabindex="1">Official Jawn Website</title>
+	
+	
+<style>
+
+	@media all and (max-width:480px){
+		body{
+			display:flex;
+			flex-direction:center;
+			align-items:center;
+			}
+	}
+
+
+	body{	
+	display:flex;
+	flex-direction:column;
+	align-items: auto center;
+	background-image:url('https://i.pinimg.com/564x/0c/24/6c/0c246c75c5a075494245b6f08fa42bc1.jpg');
+	font-family:Creepster;
+	text-align:center;
+	text-transform:capitalize;
+	color:white;
+	font-size:30px;
+	box-shadow:1px 7px 7px 5px black;
+	}
+	#adjust-intro{
+		font-size:70px;
+	}
+	h2{
+		border-style:solid;
+		background-color:black;
+		border-width:10px;
+		border-radius:10px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	color:white;
+	background-color:black;
+	margin: 300px 200px 50px 200px;
+	padding:50px;
+	box-shadow:1px 7px 7px 5px black;
+	}
+
+	h3{
+		border-style:solid;
+		background-color:black;
+		border-width:10px;
+		border-radius:10px;
+	color:white;
+	background-color:black;
+	margin: 300px 200px 10px 200px;
+	padding:50px;
+	font-size:45px;
+	box-shadow:1px 7px 7px 5px black;
+	}
+
+	.format-purchase-top-margin{
+	margin:400px 100px 200px 100px;
+	}
+
+	.jawn-placeholder-top-margin{
+	margin: 200px 300px 200px 300px;
+	}
+	
+	#hover-link-font-size{
+	font-size:40px;
+	}
+
+
+
+
+	h1{
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+	position: relative;
+	height: 90px;
+	border-style:solid;
+	border-width:10px;
+	border-radius:10px;
+	border-color:white;
+	background:black;
+	margin: 265px 200px 255px 200px;
+	padding:45px 20px 20px 20px;
+	border-radius: 0px;
+	font-size:40px;
+	letter-spacing:5px;
+	}
+	#h1-float{
+		display:flex;
+		flex-direction:column;
+	animation-name:h1-float;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+	}
+	@keyframes h1-float{
+	0%{
+	background-color:black;
+	color:gray;
+	top:0px;
+	}
+	100%{
+		background-color:black;
+	color:red;
+	top:40px;
+	}
+	50%{
+		background-color:black;
+	color:white;
+	top:0px;
+	}
+	0%{
+		background-color:black;
+	color:red;
+	top:40px;
+	}
+	}
+
+	#h5-1{
+	animation-name:h5-1;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	}
+	@keyframes h5-1{
+	50%{
+	background-color:transparent;
+	color:gray;
+	transform: scale(0.5);
+	opacity: 0.5;
+	}
+}
+
+	#h5-2{
+	animation-name:h5-2;
+	animation-duration: 2s;
+	animation-iteration-count:infinite;
+	}
+	@keyframes h5-2{
+	20%{
+	background-color:transparent;
+	color:gray;
+	transform: scale(0.5);
+	opacity: 0.5;
+	}	
+}
+	#h5-3{
+	animation-name:h5-3;
+	animation-duration: 2s;
+	animation-iteration-count:infinite;
+	}
+	@keyframes h5-3{
+	50%{
+	background-color:transparent;
+	color:gray;
+	transform: scale(0.5);
+	opacity: 0.5;
+	}
+	}
+
+	#h5-4{
+	animation-name:h5-4;
+	animation-duration: 2s;
+	animation-iteration-count:infinite;
+	}
+	@keyframes h5-4{
+	20%{
+	background-color:transparent;
+	color:gray;
+	transform: scale(0.5);
+	opacity: 0.5;
+	}
+	}
+		
+	h4{
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		position: relative;
+		border-style:solid;
+		background-color:black;
+		border-color:white;
+		border-width:10px;
+		border-radius:10px;
+	margin: 270px 300px 150px 300px;
+	border-radius: 5px;
+	font-size:50px;
+	}
+	#h4-float{
+	position:relative;
+	animation-name:h4-float;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+	}
+	@keyframes h4-float{
+	0%{
+	color:gray;
+	top:0px;
+	/*left:20%;*/
+	}
+	100%{
+	color:red;
+	top:40px;
+	/*left:-7.5%;*/
+	}
+	50%{
+	color:white;
+	top:0px;
+	/*left:20%;*/
+	}
+	0%{
+	color:red;
+	top:40px;
+	}
+	}
+
+	#jawn-logo-margin{
+	margin:80px 10px 300px 10px;
+	}
+
+	#smaller-image{
+	width:500px;
+	height:500px;
+	}
+
+	.thin-gray-border{
+	border-color:gray;
+	border-width:5px;
+	border-style:solid;
+	border-radius:100%;
+	padding:10px 10px 10px 10px;
+	margin:40px;
+	}
+
+	img:hover{
+	transform:scale(1.2);
+	}
+	header{
+		position:fixed;
+	}
+	#nav-bar{
+		display:block;
+		position:fixed;
+		height:90px;
+		top:0px;
+		left:0px;
+		width:100%;
+		background-color:black;
+		box-shadow:1px 7px 7px 5px black;
+		}
+
+	button{
+	margin:20px 10px 10px 10px;
+	padding:auto;
+	border-radius: 0px;
+	width:auto;
+	height:60px;
+	top:100px;
+	color: white;
+	background-color:black;
+	box-shadow:1px 7px 7px 5px black;
+	font-size:23px;
+	font-family:creepster;
+	letter-spacing:2px;
+	}
+	button:hover{
+	animation-fill-mode:forwards;
+	animation-name:change-color;
+	animation-duration:.3s;
+	animation-iteration-count:infinite;
+	}
+	@keyframes change-color{
+	100%{
+	background-color:gray;
+	}
+	}
+	#button-margin{
+	  padding:auto;
+	  margin:auto;
+	
+	}
+
+	.mp3-vinyl-cd-cassette-margin{
+	margin:50px 20px 50px 20px;
+	}
+
+	#music-purchase-font-size{
+	font-size: 50px;
+	}
+
+	.legend-padding-bottom{
+		box-shadow:1px 7px 7px 5px black;
+	color:gray;
+	margin:auto;
+	}
+
+	fieldset{
+	background-color:black;
+	box-shadow:1px 7px 7px 5px black;
+	margin:auto;
+	padding:auto;
+	}
+
+	#placeholder-margin{
+	margin:40px;
+	}
+
+	#color{
+	color:gray;
+	box-shadow:1px 7px 7px 5px black;
+	}
+
+	#font-size{
+	font-size:30px;
+	}
+	#members{
+		border-style:solid;
+		background-color:black;
+		border-width:10px;
+		border-radius:10px;
+		margin:3px 300px 3px 300px;
+		box-shadow:1px 7px 7px 5px black;
+		font-size:70px;
+	}
+	.bandcamp-link{
+		display:flex;
+		flex-direction:column;
+		color:rgb(133, 116, 116);
+		margin: 20px 10px 20px 10px;
+		font-size:40px;
+	}
+	.insta-link{
+		display:flex;
+		flex-direction:column;
+		color:rgb(133, 116, 116);
+		font-size:40px;
+
+	}
+	#container{
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		border-style:solid;
+		border-width:1px;
+		border-radius:0px;
+		border-color:white;
+		background-color:black;
+		margin: 50px 200px 50px 200px;
+		box-shadow:1px 7px 7px 5px black;
+	}
+	a:hover{
+	color:red;
+	}
+	#placeholder-size{
+		padding:13px 20px 10px 20px;
+	}
+	#purchase-font{
+		font-size:35px;
+	}
+</style>
+
+</head>
+
+<body>
+
+
+		
+		<h1 tabindex="6" id="h1-float">
+
+			Welcome to the official Jawn website
+		
+		</h1>
+
+	    <figure id="jawn-logo-margin">
+
+            <a id="jump-to-home" target="_blank" href="https://jawnbandofficial.bandcamp.com/">
+
+				<img tabindex="6"  id="smaller-image" class="thin-gray-border" src="https://i.ibb.co/B2pS0m9/jawn-logo.jpg" alt="jawn band logo picture" border="0">
+		
+			</a>
+			
+        </figure>
+
+
+            <fieldset>
+        
+                 <legend class="legend-padding-bottom" tabindex="7">
+                   
+                    <strong>
+                        
+                        <u>Jawn /jon/(noun)</u>
+                    
+                    </strong>
+               
+                </legend>
+
+                <h2 class="legend-padding-bottom" tabindex="8">
+                   
+                    <em>Philadelphia slang, referring to any place, person, thing, or event that cannot be specifically named at the time.</em>
+    
+                </h2>
+
+            </fieldset id="jump-to-about">
+
+							<h3 id="jump-to-about">
+
+								<p id="adjust-intro" tabindex="9">
+									
+									<u>We're Jawn but we are not from philly</u>
+
+								</p>
+
+								<br>
+
+								<p tabindex="10">
+
+                                Jawn was assembled in early Spring 2020, composed of veteran scene musicians from <strong>NOPE</strong>, <strong>ENDLESS GROOVE</strong>, and <strong>THE SPERGS</strong>. Jawn seeks to eke out it's own little place in the Cleveland rock scene with a unique punk influenced sound. The soundtrack to your drunken stumble through the city after drinking your buddy's two year old mulberry closet wine. Background music to holding a firework in your hand and lighting it. Jawn exists solely to encourage you to make ill decisions. Jawn exists to make new memories of debatable goodness. Jawn exists to have a good time.
+								
+								</p>
+
+                            </h3>
+		
+
+		<div id="h4-float">
+
+        <h4 tabindex="11">
+            
+                 Jawn consists of four members
+        
+		</h4>
+		
+		</div>
+		
+
+		<div id="members">
+
+        <h5 tabindex="12" id="h5-1" class="h5-1">Levi Oesterman</h5>
+
+        
+
+        <h5 tabindex="13" id="h5-2" class="h5-2">Dillon Nimon</h5>
+
+        
+
+        <h5 tabindex="14" id="h5-3" class="h5-3">James Kalvitz</h5>
+
+        
+
+        <h5 tabindex="15" id="h5-4" class="h5-4">Logan Davis</h5>
+
+    	</div>  
+
+
+    <div id="box-shadow">
+
+        <fieldset id="color" class="format-purchase-top-margin">
+
+            <legend id="purchase-font" tabindex="16">
+                <u id="jump-to-purchase">PURCHASE ONE OR MORE FORMATS BELOW TO SUPPORT JAWN</u>
+            </legend>
+            
+
+            <label for="CD"tabindex="17"class="mp3-vinyl-cd-cassette-margin" id="music-purchase-font-size">
+			
+			CD
+		
+			</label>
+
+                <input tabindex="18" type="checkbox" class="mp3-vinyl-cd-cassette-margin"> 
+
+                <button tabindex="19">
+					
+					purchase
+				
+				</button>
+
+            
+
+            <br>
+        
+            <label for="CASSETTE" tabindex="20" class="mp3-vinyl-cd-cassette-margin"id="music-purchase-font-size">
+				
+				CASSETTE
+			
+			</label>
+
+
+            <input tabindex="21" type="checkbox" class="mp3-vinyl-cd-cassette-margin"> 
+
+            <button tabindex="22">
+				
+				purchase
+			
+			</button>
+
+            </label>
+        
+            <br>
+        
+            <label for="VINYL" tabindex="23" class="mp3-vinyl-cd-cassette-margin"id="music-purchase-font-size">
+				
+				VINYL
+			
+			</label>
+        
+            <input tabindex="24" type="checkbox" class="mp3-vinyl-cd-cassette-margin"> 
+
+            <button tabindex="25">
+				
+				purchase
+			
+			</button>
+
+            </label>
+        
+            <br>
+        
+            <label for="MP3" tabindex="26" class="mp3-vinyl-cd-cassette-margin"id="music-purchase-font-size">
+				
+				MP3
+			
+			</label>
+
+            <input tabindex="27" type="checkbox" class="mp3-vinyl-cd-cassette-margin">
+
+            <button tabindex="28">
+				
+				purchase
+			
+			</button>
+
+            
+
+        </fieldset>
+
+    </div>
+
+        <br>
+
+
+            <fieldset id="color" class="jawn-placeholder-top-margin" 
+			action="_blank">
+
+                <legend tabindex="29">
+
+                    <u>Ask us a question</u>
+
+                </legend>
+
+            <br>
+
+	        <input tabindex="30" id="placeholder-size" type="text" placeholder="ASK JAWN ANYTHING"required>
+	
+	        <button tabindex="31" type="submit" id="placeholder-margin">
+				
+				Blow off your fingers
+			
+			</button>
+
+             </fieldset>
+
+	<nav id="nav-bar">
+      
+		<a tabindex="2" id="button-margin" class="white-text" href = "#jump-to-home"><button>home</button></a>
+
+		
+			
+		<a tabindex="3"id="button-margin" class="white-text" href = "#jump-to-about"><button>about</button><a>
+		
+	
+		<a tabindex="4"id="button-margin" class="white-text" href = "#jump-to-music"><button>music</button></a>
+
+		
+
+		<a tabindex="5"id="button-margin" class="white-text" href = "#jump-to-purchase"><button>purchase</button></a>
+
+		
+	
+	</nav>
+
+
+    <div id="container">
+
+        <h6 id="bandcamp-insta">
+
+            <a tabindex="32"id="jump-to-music" class="bandcamp-link" href = "https://jawnbandofficial.bandcamp.com/" target="_blank">
+				
+				JAWN bandcamp
+			
+			</a>
+	
+            <a tabindex="33"class="insta-link" href = "https://www.instagram.com/jawnbandofficial/" target="_blank">
+				
+				JAWN instagram
+			
+			</a>
+
+        </h6>
+
+    </div>
+    
+</body>
+
+</html>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
